@@ -1,0 +1,54 @@
+body {
+    background-image: url('http://wallpaperscraft.com/image/65809/2560x1440.jpg?orig=1');
+}
+html, body {
+    height: 100%;
+}
+.margin-top-10 {
+    margin-top: 20px;
+}
+.twitter-share-button {
+    margin-left: 20px;
+}
+.text-for-Arsenal {
+    color: white;
+    font-size: 40px;
+    font-family:'Walter Turncoat', cursive;
+}
+.panel-body {
+    font-size: 50px;
+    font-family:'Walter Turncoat', cursive;
+}
+.panel-heading {
+    font-size: 24px;
+    font-family:'Walter Turncoat', cursive;
+}
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -80px;
+}
+#push, #footer {
+    height: 80px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+ @media (max-width: 300px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+#container{
+	padding-top: 25px;
+	font-size: 20px;
+}
+
+p.credit{
+	color: white;
+}	
